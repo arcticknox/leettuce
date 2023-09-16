@@ -12,7 +12,6 @@ const mergeArrays = (arr1, arr2) => {
             j++;
         }
     }
-    console.log(i, j);
     if (i <= (arr1.length - 1)) {
         arr1.splice(0, i);
         merged = merged.concat(arr1);
